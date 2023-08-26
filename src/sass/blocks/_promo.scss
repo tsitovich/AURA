@@ -1,0 +1,123 @@
+.promo {
+    min-height: 680px;
+    background-color: #07060B;
+    padding-top: 160px;
+    position: relative;
+}
+
+.promo__bg1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.promo__bg2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.promo__bg3 {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+.promo__content {
+    max-width: 621px;
+    h1 {
+        color: #FFF;
+        font-family: Russo One;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 36px;
+        position: relative;
+        z-index: 10;
+    }
+}
+
+.promo__buy {
+    margin-right: 32px;
+    display: inline-flex;
+    padding: 25px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    background: var(--button-cta, linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%));
+    color: #07060B;
+    text-align: center;
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    &:hover {
+        background: var(--primary);
+    }
+    &:focus-visible {
+        background: var(--primary);
+    }
+    &:active {
+        background: var(--primary-active);
+    }
+}
+
+.promo__author {
+    background: var(--button-cta, linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%));
+    display: inline-flex;
+    padding: 3px 3px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    position: relative;
+    z-index: 10;
+    &:hover {
+        background: var(--button-cta);
+    }
+    &:focus-visible {
+        background: var(--primary);
+    }
+    &:active {
+        background: var(--primary-active);
+    }
+}
+
+.promo__author-text {
+    background-color: #07060B;
+    display: inline-flex;
+    padding: 25px 54px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    &:hover {
+        background: var(--button-cta);
+        color: #07060B;
+    }
+    &:focus-visible {
+        background: var(--primary);
+        color: #07060B;
+    }
+    &:active {
+        background: var(--primary-active);
+    }
+}

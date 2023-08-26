@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerBold.woff2') format('woff2'),
+        url('../fonts/MullerBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerRegular.woff2') format('woff2'),
+        url('../fonts/MullerRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: 'Muller', 'Russo One', sans-serif;
+}
+
+
+@import "base/variables";
+@import "blocks/null";
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/auction";
+
+
+
+@import "blocks/media";

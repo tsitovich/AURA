@@ -1,0 +1,111 @@
+@media (max-width: 1750px) {
+    .promo__bg1 {
+        display: none;
+    }
+    .promo__bg2 {
+        display: block;
+    }
+}
+
+@media (max-width: 1319.98px) {
+    .container {
+        width: 100%;
+        padding: 0px 20px;
+    }
+}
+//---------------------------------------------------------------------------
+@media (max-width: 1199.98px) {}
+//----------------------------------------------------------------------------
+@media (max-width: 991.98px) {
+}
+//----------------------------------------------------------------------------
+@media (max-width: 767.98px) {
+    .header {
+        height: 111px;
+    }
+    .header__logo {
+        width: 75px;
+        height: 30px;
+        svg {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+    .header__links {
+        position: absolute;
+        top: 81px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        justify-content: space-around;
+    }
+    .header__link {
+        &:not(:last-child) {
+            margin-right: 0px;
+        }
+    }
+    .header__btn {
+        display: none;
+    }
+    .header__logo2 {
+        display: block;
+    }
+    .header__divider {
+        display: block;
+        position: absolute;
+        top: 70px;
+    }
+
+
+    .promo {
+        padding-top: 64px;
+    }
+    .promo__content {
+        max-width: 300px;
+        h1 {
+            font-size: 35px;
+            margin-bottom: 16px;
+        }
+    }
+    .promo__btns {
+        display: flex;
+        flex-direction: column;
+    }
+    .promo__buy {
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+    .promo__author {
+        padding: 7px 7px;
+    }
+    .promo__author-text {
+        font-size: 16px;
+    }
+
+}
+//----------------------------------------------------------------------------
+@media (max-width: 575.98px) {
+    .header__link {
+        font-size: 16px;
+    }
+
+
+    .promo {
+        min-height: 531px;
+    }
+    .promo__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .promo__bg2 {
+        display: none;
+    }
+    .promo__bg3 {
+        display: block;
+    }
+}
+//----------------------------------------------------------------------------
+@media (max-width: 320px) {
+    
+}
