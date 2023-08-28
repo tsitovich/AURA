@@ -1,0 +1,150 @@
+.other {
+    padding-top: 90px;
+}
+.container {
+}
+.other__wrapper {
+    display: flex;
+    flex-direction: column;
+    h3 {
+        color: var(--black, #07060B);
+        font-family: Russo One;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 32px;
+    }
+}
+.other__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -16px;
+    row-gap: 32px;
+    margin-bottom: 32px;
+}
+.other__block {
+    padding: 0px 16px;
+    flex: 0 1 25%;
+}
+.other__content {
+    display: flex;
+    flex-direction: column;
+}
+.other__image {
+    min-height: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--grey-light);
+    border-radius: 40px 40px 0px 0px;
+}
+.other__img {
+    width: 160px;
+    height: 160px;
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+.other__descr {
+    min-height: 168px;
+    padding-top: 20px;
+    background: var(--black);
+    padding-left: 16px;
+    padding-right: 5px;
+    border-radius: 0px 0px 40px 40px;
+}
+.other__nickname {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.other__nickname-img {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+.other__nickname-name {
+    color: var(--white, #FFF);
+    font-family: Muller;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.other__name {
+    color: var(--white);
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.other__price {
+    color: var(--primary);
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.other__time {
+    color: var(--grey-middle);
+    font-family: Muller;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.other__btn {
+    align-self: center;
+    width: 296px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: var(--primary);
+    padding: 5px 5px;
+    &:hover {
+        .other__btn-text {
+            background: var(--primary);
+        }
+    }
+    &:focus-visible {
+        background: var(--primary);
+        .other__btn-text {
+            background: var(--primary);
+        }
+    }
+    &:active {
+        background: var(--primary-active);
+        .other__btn-text {
+            background: var(--primary-active);
+        }
+    }
+
+}
+.other__btn-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: var(--black, #07060B);
+    text-align: center;
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #fff;
+    border-radius: 40px;
+}

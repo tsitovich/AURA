@@ -12,11 +12,23 @@
         width: 100%;
         padding: 0px 20px;
     }
+
+
+    .auction__bidding {
+        flex-direction: column;
+    }
+    .auction__bet {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
 }
 //---------------------------------------------------------------------------
 @media (max-width: 1199.98px) {}
 //----------------------------------------------------------------------------
 @media (max-width: 991.98px) {
+    .other__block {
+        flex: 0 1 33.33%;
+    }
 }
 //----------------------------------------------------------------------------
 @media (max-width: 767.98px) {
@@ -83,6 +95,22 @@
         font-size: 16px;
     }
 
+
+    .auction {
+        padding-top: 80px;
+    }
+    .auction__block {
+        flex-direction: column;
+    }
+    .auction__image {
+        align-self: center;
+    }
+
+
+    .other__block {
+        flex: 0 1 50%;
+    }
+
 }
 //----------------------------------------------------------------------------
 @media (max-width: 575.98px) {
@@ -103,6 +131,90 @@
     }
     .promo__bg3 {
         display: block;
+    }
+
+
+    .auction__title {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .auction__live {
+        font-size: 12px;
+    }
+    .auction__image {
+        width: 296px;
+        height: 296px;
+    }
+    .auction__name {
+        margin-bottom: 16px;
+    }
+    .auction__nickname {
+        font-size: 16px;
+    }
+    .auction__subtitle {
+        margin-bottom: 16px;
+        font-size: 30px;
+    }
+    .auction__bet {
+        margin-bottom: 16px;
+        width: 174px;
+        height: 126px;
+        padding-top: 16px;
+        padding-left: 16px;
+    }
+    .auction__bet-title {
+        font-size: 16px;
+    }
+    .auction__bet-quantity {
+        font-size: 30px;
+    }
+    .auction__bet-rate {
+        font-size: 16px;
+    }
+    .auction__ending {
+        width: 200px;
+        height: 116px;
+        padding-top: 16px;
+        padding-left: 16px;
+    }
+    .auction__ending-title {
+        font-size: 16px;
+    }
+    .auction__ending-hour-title {
+        font-size: 30px;
+    }
+    .auction__ending-hour-descr {
+        font-size: 16px;
+    }
+    .auction__ending-minutes-title {
+        font-size: 30px;
+    }
+    .auction__ending-minutes-descr {
+        font-size: 16px;
+    }
+    .auction__ending-seconds-title {
+        font-size: 30px;
+    }
+    .auction__ending-seconds-descr {
+        font-size: 16px;
+    }
+    .auction__ending-img {
+        display: none;
+    }
+    .auction__btn {
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+
+    .other {
+        padding-top: 80px;
+    }
+    .other__btn {
+        width: 200px;
+        height: 50px;
     }
 }
 //----------------------------------------------------------------------------

@@ -226,6 +226,16 @@
     line-height: normal;
 }
 
+.auction__ending-img {
+    width: 121px;
+    height: 121px;
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
 .auction__btn {
     width: 296px;
     height: 70px;

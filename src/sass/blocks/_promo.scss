@@ -77,7 +77,7 @@
 .promo__author {
     background: var(--button-cta, linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%));
     display: inline-flex;
-    padding: 3px 3px;
+    padding: 5px 5px;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
@@ -85,12 +85,23 @@
     z-index: 10;
     &:hover {
         background: var(--button-cta);
+        .promo__author-text {
+            background: var(--button-cta);
+            color: #07060B;
+        }
     }
     &:focus-visible {
         background: var(--primary);
+        .promo__author-text {
+            background: var(--primary);
+            color: #07060B;
+        }
     }
     &:active {
         background: var(--primary-active);
+        .promo__author-text {
+            background: var(--primary-active);
+        }
     }
 }
 
@@ -109,15 +120,4 @@
     font-weight: 700;
     line-height: normal;
     width: 100%;
-    &:hover {
-        background: var(--button-cta);
-        color: #07060B;
-    }
-    &:focus-visible {
-        background: var(--primary);
-        color: #07060B;
-    }
-    &:active {
-        background: var(--primary-active);
-    }
 }
