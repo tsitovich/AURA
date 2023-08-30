@@ -1,0 +1,24 @@
+.new {
+    padding-top: 90px;
+    min-height: 684px;
+    background: var(--black);
+}
+.container {
+}
+.new__title {
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+}
+.new__img {
+    margin-right: 16px;
+}
+.new__descr {
+    color: var(--white, #FFF);
+    font-family: Russo One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+

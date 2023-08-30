@@ -1,5 +1,6 @@
 .other {
     padding-top: 90px;
+    padding-bottom: 90px;
 }
 .container {
 }
@@ -26,6 +27,7 @@
 .other__block {
     padding: 0px 16px;
     flex: 0 1 25%;
+    background: #FFF;
 }
 .other__content {
     display: flex;
@@ -147,4 +149,24 @@
     line-height: normal;
     background-color: #fff;
     border-radius: 40px;
+}
+
+
+.itc-slider-1 {
+    display: none;
+    margin-bottom: 32px;
+
+    .itc-slider-indicators {
+        bottom: -40px;
+    }
+    .itc-slider-indicator {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        margin-right: 8px;
+        background-color: #EDEDF2;
+    }
+    .itc-slider-indicator-active{
+        background-color: #46F4DB;
+    }
 }
