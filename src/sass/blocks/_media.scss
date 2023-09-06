@@ -21,6 +21,9 @@
         margin-right: 0;
         margin-bottom: 32px;
     }
+
+
+    
 }
 //---------------------------------------------------------------------------
 @media (max-width: 1199.98px) {}
@@ -28,6 +31,11 @@
 @media (max-width: 991.98px) {
     .other__block {
         flex: 0 1 33.33%;
+    }
+    
+
+    .new {
+        min-height: 607px;
     }
 }
 //----------------------------------------------------------------------------
@@ -109,6 +117,14 @@
 
     .other__block {
         flex: 0 1 50%;
+    }
+
+
+    .new {
+        min-height: 500px;
+    }
+    .new__descr {
+        font-size: 50px;
     }
 
 }
@@ -228,6 +244,32 @@
     .itc-slider-1 {
         display: block;
         margin-bottom: 58px;
+    }
+
+
+    .new {
+        padding-top: 32px;
+        padding-bottom: 124px;
+        min-height: 356px;
+    }
+    .new__img {
+        margin-right: 8px;
+        img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+    .new__descr {
+        font-size: 30px;
+    }
+    .itc-slider-2 {
+        display: none;
+    }
+    .itc-slider-3 {
+        display: block;
+        .itc-slider-indicators {
+            bottom: -60px;
+        }
     }
 }
 //----------------------------------------------------------------------------
